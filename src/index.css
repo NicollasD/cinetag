@@ -1,0 +1,28 @@
+:root {
+  --fonte: "Montserrat", serif;
+  --branco: #ffffff;
+  --preto: #000000;
+  --cinza: #E2E2E2;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  font-family: var(--fonte);
+  background-color: var(--branco);
+}
